@@ -1,0 +1,288 @@
+@font-face {
+    font-family: Founder;
+    src: url(/FoundersGroteskCondensed-Bold.ttf);
+}
+
+@font-face {
+    font-family: Cardinal;
+    src: url(/cardinalfruitweb-regular.ttf);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body, html{
+    height: 100%;
+    width: 100%;
+}
+.main-bottom{
+    height: 100vh;
+    width: 100%;
+    background-color: #040505;
+}
+.main-parent{
+    height: 100vh;
+    width: 100%;
+    background-color: #040505;
+}
+
+.main{
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    background-color: #ebebeb;
+    overflow: hidden;
+}
+
+.top-img{
+    position: absolute;
+    top: 95%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    object-fit: cover;
+    width: 50%;
+}
+
+.bottom-img{
+    position: absolute;
+    top: -5%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    object-fit: cover;
+    width: 50%;
+
+}
+
+/*.top-h{*/
+/*    bottom: 50%;*/
+/*}*/
+
+.top{
+    z-index: 9;
+    position: absolute;
+    top: 0;
+    overflow: hidden;
+    height: 50vh;
+    background-color: #fcf9f9;
+    width: 100%;
+}
+
+/*.top img{*/
+/*    width: 100%;*/
+/*    object-fit: contain;*/
+/*    bottom: 50% !important;*/
+/*}*/
+
+/*.bottom img{*/
+/*    width: 100%;*/
+/*    object-fit: cover;*/
+/*    top: -4.75% !important;*/
+/*    !*top: 0 !important;*!*/
+/*}*/
+
+.bottom{
+    position: absolute;
+    bottom: 0;
+    overflow: hidden;
+    height: 50vh;
+    width: 100%;
+    background-color: #fcf9f9;
+}
+
+.center{
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    background-color: #000;
+    overflow: hidden;
+    transform-origin: center;
+}
+
+.content{
+    /*position: absolute;*/
+    height: 100vh;
+    width: 100%;
+    margin-top: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Cardinal, sans-serif;
+    font-size: 3.2vw;
+    font-weight: bold;
+    color: #fff;
+}
+
+
+
+/*.bottom-h{*/
+/*    !*top: 0 !important;*!*/
+/*    top: -4.75% !important;*/
+/*}*/
+
+
+
+.main-parent{
+    text-align: center;
+    display: flex;
+    gap: 20px;
+    /*flex-direction: column;*/
+    justify-content: center;
+    align-items: center;
+    color: whitesmoke;
+    font-family: Cardinal;
+}
+
+.main-parent i{
+    font-size: 28px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*@font-face {*/
+/*    font-family: Founder;*/
+/*    src: url(/FoundersGroteskCondensed-Bold.ttf);*/
+/*}*/
+
+/*@font-face {*/
+/*    font-family: Cardinal;*/
+/*    src: url(/cardinalfruitweb-regular.ttf);*/
+/*}*/
+
+/**{*/
+/*    margin: 0;*/
+/*    padding: 0;*/
+/*    box-sizing: border-box;*/
+/*}*/
+
+/*body, html{*/
+/*    height: 100%;*/
+/*    width: 100%;*/
+/*}*/
+
+/*.main-parent{*/
+/*    height: 100vh;*/
+/*    width: 100%;*/
+/*    background-color: #222;*/
+/*}*/
+
+/*.main{*/
+/*    position: relative;*/
+/*    height: 100vh;*/
+/*    width: 100%;*/
+/*    background-color: lightgray;*/
+/*}*/
+
+/*.main h1{*/
+/*    position: absolute;*/
+/*    top: 50%;*/
+/*    left: 50%;*/
+/*    transform: translate(-50%, -50%);*/
+/*    font-family: Founder, sans-serif;*/
+/*    font-size: 22vw;*/
+/*}*/
+
+/*.main img{*/
+/*    position: absolute;*/
+/*    top: 50%;*/
+/*    left: 50%;*/
+/*    transform: translate(-50%, -50%);*/
+/*    font-family: Founder, sans-serif;*/
+/*    font-size: 22vw;*/
+/*}*/
+
+/*.top-h{*/
+/*    bottom: 50%;*/
+/*}*/
+
+/*.top{*/
+/*    z-index: 9;*/
+/*    position: absolute;*/
+/*    top: 0;*/
+/*    overflow: hidden;*/
+/*    height: 50vh;*/
+/*    width: 100%;*/
+/*    background-color: #fff;*/
+/*}*/
+
+/*.top img{*/
+/*    width: 100%;*/
+/*    object-fit: contain;*/
+/*    bottom: 50% !important;*/
+/*}*/
+
+/*.bottom img{*/
+/*    width: 100%;*/
+/*    object-fit: cover;*/
+/*    top: -4.75% !important;*/
+/*    !*top: 0 !important;*!*/
+/*}*/
+
+/*.bottom{*/
+/*    position: absolute;*/
+/*    bottom: 0;*/
+/*    overflow: hidden;*/
+/*    height: 50vh;*/
+/*    width: 100%;*/
+/*    background-color: #fff;*/
+/*}*/
+
+/*.center{*/
+/*    position: relative;*/
+/*    height: 100vh;*/
+/*    width: 100%;*/
+/*    background-color: #000;*/
+/*    overflow: hidden;*/
+/*    transform-origin: center;*/
+/*}*/
+
+/*.content{*/
+/*    !*position: absolute;*!*/
+/*    height: 100vh;*/
+/*    width: 100%;*/
+/*    margin-top: 100vh;*/
+/*    display: flex;*/
+/*    justify-content: center;*/
+/*    align-items: center;*/
+/*    font-family: Cardinal, sans-serif;*/
+/*    font-size: 4vw;*/
+/*    color: #fff;*/
+/*}*/
+
+
+
+/*.bottom-h{*/
+/*    !*top: 0 !important;*!*/
+/*    top: -4.75% !important;*/
+/*}*/
+
+
+
+/*.main-parent{*/
+/*    text-align: center;*/
+/*    display: flex;*/
+/*    gap: 20px;*/
+/*    !*flex-direction: column;*!*/
+/*    justify-content: center;*/
+/*    align-items: center;*/
+/*    color: whitesmoke;*/
+/*    font-family: Cardinal;*/
+/*}*/
+
+/*.main-parent i{*/
+/*    font-size: 28px;*/
+/*}*/
